@@ -1,0 +1,17 @@
+snpe-onnx-to-dlc --input_network /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/jacob_best_model.onnx --output_path /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/1.6/jacob_best_model_20261114_001311_conversion_1.6.dlc
+
+2026-11-14 00:13:11,815 - 214 - INFO - Successfully simplified the onnx model!
+2026-11-14 00:13:11,839 - 214 - INFO - INFO_DLC_SAVE_LOCATION: Saving model at /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/1.6/jacob_best_model_20261114_001311_conversion_1.6.dlc
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /tcn/tcn.0/residual/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /tcn/tcn.1/residual/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /tcn/tcn.2/residual/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /tcn/tcn.3/residual/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /tcn/tcn.4/residual/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+/opt/snpe/1.61.0.3358/lib/python/qti/aisw/converters/backend/ir_to_dlc.py:310: RuntimeWarning: info_code=802; message=Layer parameter value is invalid in GPU. Layer /output_layer/output_layer.1/conv/Conv_2d: not supported on GPU; component=GPU Runtime; line_no=280; thread_id=129552928692032
+  node.op.groups)
+2026-11-14 00:13:11,845 - 214 - INFO - INFO_CONVERSION_SUCCESS: Conversion completed successfully

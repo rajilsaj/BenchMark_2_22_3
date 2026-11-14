@@ -1,0 +1,6 @@
+snpe-onnx-to-dlc --input_network /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/rogers_model.onnx --output_path /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/1.6/rogers_model_20261114_001311_conversion_1.6.dlc
+
+2026-11-14 00:13:12,236 - 214 - INFO - Successfully simplified the onnx model!
+2026-11-14 00:13:12,241 - 219 - WARNING - WARNING_GEMM: GEMM operation is not supported in the general case, attempting to interpret as FC
+2026-11-14 00:13:12,255 - 214 - INFO - INFO_DLC_SAVE_LOCATION: Saving model at /workspace/shared/conversion_11_13_26/BenchMark_2_22_3/1.6/rogers_model_20261114_001311_conversion_1.6.dlc
+2026-11-14 00:13:12,263 - 214 - INFO - INFO_CONVERSION_SUCCESS: Conversion completed successfully
